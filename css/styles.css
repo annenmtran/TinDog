@@ -1,0 +1,321 @@
+/* General Body Section */
+
+body {
+
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+
+    color: white;
+    font-weight: 800;
+    line-height: 1.5;
+    size: 4rem;
+    padding-top: 40px;
+
+
+}
+
+
+h2 {
+
+    font-weight: 700;
+    line-height: 3.5rem;
+
+
+}
+
+h3 {
+
+
+    font-weight: 700;
+    size: 1.5rem;
+
+
+}
+
+.h-spacing {
+
+    margin-top: 70px;
+
+
+}
+
+p {
+
+    color: #8f8f8f;
+    display: inline-block;
+
+
+
+}
+
+
+
+
+/* Title Section */
+
+#title {
+
+    background-color: #ff4c68;
+    position: relative;
+    z-index: 0;
+
+}
+
+.container-fluid {
+
+    padding: 3% 15%;
+
+
+}
+
+.navbar {
+
+    padding-bottom: 4rem;
+
+}
+
+.navbar-brand {
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+
+
+}
+
+.nav-link {
+
+    margin-left: 30px;
+
+}
+
+.dog-iphone {
+
+    height: 600px;
+    transform: rotate(25deg);
+    position: relative;
+    left: 13%;
+    z-index: 0;
+    padding-bottom: 20px;
+
+}
+
+.btn-primary,.btn-secondary {
+
+
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.btn-secondary {
+
+    background-color: #ff4c68;
+
+
+
+}
+
+
+
+
+/* Feature Section */
+
+#features {
+
+    background-color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+
+
+}
+
+
+.feature-box {
+
+    padding: 10% 6%; 
+}
+
+
+.feature-title {
+
+    font-size: 1.5rem;
+
+
+}
+
+.feature-icon {
+
+    color: #ef8172;
+    margin-bottom: 2rem;
+
+}
+
+.feature-icons:hover {
+
+    color: #FF4C68;
+
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+
+    background-color: #ff4c68;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+.testimonial-image {
+
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+
+.carousel-item {
+
+    padding: 7% 15%;
+   
+
+}
+
+
+#press {
+
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.press-logo {
+
+    width: 15%;
+    margin: 10px 20px 60px 20px;
+
+
+}
+
+
+
+
+/* subscription options Section */
+
+#pricing {
+    padding-top: -20px;
+    text-align: center;
+
+}
+
+.subscript-btn {
+
+    width: 90%;
+    margin: 5%;
+
+
+}
+
+
+.card-col {
+
+    padding: 3% 2%;
+
+}
+
+@media (max-width: 993px) {
+
+
+    #title {
+
+        text-align: center;
+
+
+    }
+
+    .dog-iphone {
+
+        position: static;
+        transform: rotate(0deg);
+
+
+    }
+
+}
+
+
+/* cta Section */
+
+
+#cta {
+
+
+    color: white;
+    text-align: center;
+    Padding: 150px;
+    overflow: auto;
+    background-color: #ff4c68;
+
+
+
+
+}
+
+
+.cta-text {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding: 8% 15%;
+
+
+}
+
+
+.endbtns {
+
+    margin-left: 30px;
+
+
+}
+
+
+/* Footer Section */
+
+#footer {
+
+    color: #fff;
+    padding: 4%;
+    text-align: center;
+
+
+
+}
+
+.Copyright {
+
+    font-size: small;
+
+}
+
+.footer-icons {
+
+
+    color: black;
+    text-align: center;
+    margin: 20px 10px;
+
+
+
+}
